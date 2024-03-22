@@ -111,6 +111,7 @@
             this.button11.TabIndex = 10;
             this.button11.Text = "Supprimer";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -120,7 +121,7 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(131, 76);
             this.button10.TabIndex = 9;
-            this.button10.Text = ".";
+            this.button10.Text = ",";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.buttonNum_Click);
             // 
@@ -259,6 +260,7 @@
             this.button15.TabIndex = 2;
             this.button15.Text = "Euros";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.buttonDevise_Click);
             // 
             // button14
             // 
@@ -270,6 +272,7 @@
             this.button14.TabIndex = 1;
             this.button14.Text = "Livres";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.buttonDevise_Click);
             // 
             // button13
             // 
@@ -281,6 +284,7 @@
             this.button13.TabIndex = 0;
             this.button13.Text = "Dollars";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.buttonDevise_Click);
             // 
             // Form1
             // 
