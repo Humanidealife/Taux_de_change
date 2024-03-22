@@ -16,5 +16,10 @@ namespace Taux_de_change
         {
             InitializeComponent();
         }
+
+        private void buttonNum_Click(object sender, EventArgs e)
+        {
+            label1.Text += ((Button)sender).Text;
+        }
     }
 }
